@@ -10,26 +10,30 @@ project 1 - A Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
-const quotes = [{
+const quotes = [
+	{
 		quote: "I'm a little pencil in the hand of a writing God, who is sending a love letter to the world.",
 		author: "Mother Teresa",
 		source:"Quotes.net",
 		year: "2022"
 	},
-	{ quote: "Kind words can be short and easy to speak, but their echoes are truly endless.",
-	  author:"Mother Teresa",
-	  source: "Quotes.net",
-	  year: "2022"
+	{ 
+		quote: "Kind words can be short and easy to speak, but their echoes are truly endless.",
+		author:"Mother Teresa",
+		source: "Quotes.net",
+		year: "2022"
 	},
-	{ quote: "All the world is a stage and each and every person is a player",
-	  author:"William Shakespeare",
-	  source: "Quotes.net",
-	  year: "2022"
+	{
+		quote: "All the world is a stage and each and every person is a player",
+		author:"William Shakespeare",
+		source: "Quotes.net",
+		year: "2022"
 	},
-	{ quote: "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control an at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
-	  author: "Marilyn Monroe",
-	  source: "Goodreads.com",
-	  year: "2022"
+	{ 
+		quote: "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control an at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+		author: "Marilyn Monroe",
+		source: "Goodreads.com",
+		year: "2022"
 	},
 ];
 
