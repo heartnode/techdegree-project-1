@@ -91,7 +91,7 @@ function randomBackgroundColor(){
 	document.body.style.backgroundColor = `rgb(${ [Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256)].join()})`;
 }
 
-let autoRefresh= setInterval(printQuote,10000);
+let autoRefresh = setInterval(printQuote,10000);
 
 /***
  * stop auto refresh
@@ -103,6 +103,9 @@ function stopAutoRefresh(){
 function enableAutoRefresh(){
 	autoRefresh = setInterval(printQuote, 10000);
 }
+/***
+ * change event listener for the auto refresh checkbox 
+ */
 document.getElementById('cb-auto-refresh').addEventListener("change",function(){
 	if (this.checked) 
 		enableAutoRefresh() 
