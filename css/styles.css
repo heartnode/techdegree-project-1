@@ -114,6 +114,17 @@ h1 {
   content: ", ";
   font-style: normal;
 }
+.tags{
+  font-style: normal;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  opacity: 66%;
+  color: gray;
+  font-family: Times;
+}
+
 
 @media (min-width: 768px) {
   body {
